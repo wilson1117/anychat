@@ -1,22 +1,26 @@
 {
-  "name": "anychat",
-  "version": "1.0.0",
-  "description": "Anonymous chat application",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cronus6w6/anychat.git"
-  },
-  "author": "Cronus",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cronus6w6/anychat/issues"
-  },
-  "homepage": "https://github.com/cronus6w6/anychat#readme",
-  "dependencies": {
-    "socket.io": "^2.3.0"
-  }
+    "name": "anychat",
+    "version": "1.0.0",
+    "description": "Anonymous chat application",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "server": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cronus6w6/anychat.git"
+    },
+    "author": "Cronus",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/cronus6w6/anychat/issues"
+    },
+    "homepage": "https://github.com/cronus6w6/anychat#readme",
+    "dependencies": {
+        "socket.io": "^2.3.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.6.3"
+    }
 }
